@@ -24,6 +24,7 @@ export async function POST(request: Request) {
         Thank you! <3
     `,
     });
+    console.log("Questions", questions);
 
     const interview = {
       role: role,
